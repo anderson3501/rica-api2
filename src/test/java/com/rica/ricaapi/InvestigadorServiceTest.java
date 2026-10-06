@@ -1,12 +1,12 @@
 package com.rica.ricaapi;
 
 import com.rica.ricaapi.compartido.RecursoNoEncontradoException;
-import com.rica.ricaapi.investigadores.CorreoDuplicadoException;
-import com.rica.ricaapi.investigadores.CorreoInstitucional;
-import com.rica.ricaapi.investigadores.Investigador;
-import com.rica.ricaapi.investigadores.InvestigadorFactory;
-import com.rica.ricaapi.investigadores.InvestigadorRepository;
-import com.rica.ricaapi.investigadores.InvestigadorService;
+import com.rica.ricaapi.investigadores.dominio.CorreoDuplicadoException;
+import com.rica.ricaapi.investigadores.dominio.CorreoInstitucional;
+import com.rica.ricaapi.investigadores.dominio.Investigador;
+import com.rica.ricaapi.investigadores.aplicacion.InvestigadorFactory;
+import com.rica.ricaapi.investigadores.infraestructura.salida.persistencia.InvestigadorRepository;
+import com.rica.ricaapi.investigadores.aplicacion.InvestigadorService;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
