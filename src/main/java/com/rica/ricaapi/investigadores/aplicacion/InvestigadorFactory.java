@@ -23,7 +23,7 @@ public class InvestigadorFactory {
 
         if (repositorioInvestigadores.existeCorreo(correo.valor())) {
             throw new CorreoDuplicadoException(
-                    "Ya existe un investigador registrado con el correo " + correo.valor()
+                    "Ya existe un investigador registrado con ese correo " + correo.valor()
             );
         }
 
